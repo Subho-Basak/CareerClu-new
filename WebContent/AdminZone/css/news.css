@@ -1,0 +1,22 @@
+@CHARSET "ISO-8859-1";
+
+
+.row {
+	margin: 0;
+}
+.news{
+	margin:2% 1%;
+	padding:2%;
+	width:22.7%;
+	height:250px;
+	box-shadow:0 1px 2px 1px #ddd;
+}
+.news h4 i{
+	padding:10% 0;
+	font-size:50px;
+}
+@media only screen and (max-width:767px){
+	.news{
+	width:47.5%;
+	}
+}
